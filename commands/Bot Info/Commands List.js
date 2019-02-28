@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const fs = require("fs");
 const path = require('path');
 
-module.exports.run = async (client, config, message, args) => {
+module.exports.run = async (client, config, message, args, functions) => {
     var commands = [];
     var fields = [];
 

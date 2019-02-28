@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 
-module.exports.run = async (client, config, message, args) => {
+module.exports.run = async (client, config, message, args, functions) => {
     try {
         let responseMessage = await message.channel.send({
             embed: {
