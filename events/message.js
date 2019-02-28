@@ -83,29 +83,3 @@ module.exports.run = async (client, message) => {
         return execCMD.run(client, config, message, args, functions);
     }
 }
-
-/**
- * Returns a random array element from an array.
- * @param {any[]} arr Array of elements.
- * @returns {any} An element of that array.
- * 
- * @example functions.randArr([1, 2, 3, 4, 5, 6, 7, 8]); // Returns (example): 5
- */
-module.exports.randArr = (arr) => {
-    return arr[Math.floor(Math.random() * arr.length)];
-}
-
-/**
- * Gets a random integer, inclusive.
- * @param {Number} min the minimum value.
- * @param {Number} max The maximum value.
- * @returns {Number} The random integer.
- * 
- * @example functions.randomInt(1, 5); // Returns (example): 4
- */
-module.exports.randomInt = (min, max) => {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-};
-
