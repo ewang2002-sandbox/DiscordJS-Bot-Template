@@ -11,44 +11,52 @@ While copying and pasting code may work, you will struggle to understand how to 
 
 ## Resources for JavaScript & NodeJS
 CodeAcademy Online Course: https://www.codecademy.com/learn/javascript
+
 Eloquent Javascript, Free Book: http://eloquentjavascript.net/
+
 MDN's JavaScript Guide: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction
+
 You Don't Know JS (Free Book Series): https://github.com/getify/You-Dont-Know-JS
+
 Some Node: https://nodeschool.io/ https://www.codeschool.com/courses/real-time-web-with-node-js
+
 Javascript References & Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 ## Resources for DiscordJS
 The Official DiscordJS Guide: https://discordjs.guide/#/
+
 DiscordJS Documentation: https://discord.js.org/#/docs/main/stable/general/welcome
+
 DiscordJS Support: https://discord.gg/bRCvFy9
 
 # Setup
 You must do a few things before you can actually work on this bot.
 ### Creating the Bot Application
-    1. Head over to `https://discordapp.com/developers/applications/` and click "Create an application."
-    2. Configure the bot's name, profile picture, and description.
-    3. Go to `Bot` and click `Add Bot`. Then, click `Yes, do it!` to the prompt.
-    4. Configure your bot's username. Ignore the icon - that has already been configured.
-    5. At the section labeled `Token`, click `Copy`. Keep this token in a safe place and **DO NOT GIVE THIS TOKEN TO OTHER PEOPLE.**
-    6. Go to the configuration file (/config/config.json). Replace "ENTER TOKEN HERE" with the token. Do not remove the quotes.
+1. Head over to `https://discordapp.com/developers/applications/` and click "Create an application."
+2. Configure the bot's name, profile picture, and description.
+3. Go to `Bot` and click `Add Bot`. Then, click `Yes, do it!` to the prompt.
+4. Configure your bot's username. Ignore the icon - that has already been configured.
+5. At the section labeled `Token`, click `Copy`. Keep this token in a safe place and **DO NOT GIVE THIS TOKEN TO OTHER PEOPLE.**
+6. Go to the configuration file (/config/config.json). Replace "ENTER TOKEN HERE" with the token. Do not remove the quotes.
 
 ### Setting Up Your Developer's Environment
 Unless otherwise said, all steps are required.
-    1. If you are on:
-        - Windows or Mac: Download & install [NodeJS](https://nodejs.org/). You should have version 8.0.0 (or later) of NodeJS installed.
-        - Linux: Refer to NodeJS's installation guide [here](https://nodejs.org/en/download/package-manager/). You should have version 8.0.0 (or later) of NodeJS installed.
-    2. Set up a workspace folder (project folder). If you're using the bot template, rename the folder to something of your desire.
-    3. Install all necessary modules via Command Prompt/Terminal
-        - Open Command Prompt/Terminal
-            - Linux: Ctrl + Alt + T
-            - Mac: Terminal should suffice (COMMAND + Spacebar).
-            - Windows: Open the bot folder, go to file explorer URL bar (the box containing the location of your current folder), remove all text and type `cmd`.
-        - Installing Modules
-            - If you're using the bot template, simply type `npm install` and NPM should do the rest.
-            - If you're NOT using this template (i.e. making a new bot from scratch), install DiscordJS by typing in your terminal: `npm install discord.js`. Ignore the `npm warnings`. 
-    4. Install a code editor. I personally recommend [Visual Studio Code](https://code.visualstudio.com/). Another option I commonly see people use is [Atom](https://code.visualstudio.com/).
-        - If you want to install a linter, refer to [here](https://discordjs.guide/preparations/setting-up-a-linter.html#installing-a-linter). 
-    5. That's it!
+
+1. If you are on:
+	- Windows or Mac: Download & install [NodeJS](https://nodejs.org/). You should have version 8.0.0 (or later) of NodeJS installed.
+	- Linux: Refer to NodeJS's installation guide [here](https://nodejs.org/en/download/package-manager/). You should have version 8.0.0 (or later) of NodeJS installed.
+2. Set up a workspace folder (project folder). If you're using the bot template, rename the folder to something of your desire.
+3. Install all necessary modules via Command Prompt/Terminal
+	- Open Command Prompt/Terminal
+	- Linux: Ctrl + Alt + T
+	- Mac: Terminal should suffice (COMMAND + Spacebar).
+	- Windows: Open the bot folder, go to file explorer URL bar (the box containing the location of your current folder), remove all text and type `cmd`.
+	- Installing Modules
+	- If you're using the bot template, simply type `npm install` and NPM should do the rest.
+	- If you're NOT using this template (i.e. making a new bot from scratch), install DiscordJS by typing in your terminal: `npm install discord.js`. Ignore the `npm warnings`. 
+4. Install a code editor. I personally recommend [Visual Studio Code](https://code.visualstudio.com/). Another option I commonly see people use is [Atom](https://code.visualstudio.com/).
+	- If you want to install a linter, refer to [here](https://discordjs.guide/preparations/setting-up-a-linter.html#installing-a-linter). 
+5. That's it!
 
 ### Starting the Bot
 If you are using this template: Starting the bot is easy. Just go to the root folder (where `index.js`) is located, open your terminal/Command Prompt there (refer to step 3), and type `node index.js`. If you're using Visual Studio Code, go to the Debug tab (the crossed-out bug) and click `Start Bot`
@@ -61,8 +69,8 @@ Refer to the [DiscordJS Documentation](https://discord.js.org/#/docs/main/stable
 If you need help with something related to JS as a whole, use a search engine (e.g. Google, Bing) to search the solution.
 
 If you still need help with DiscordJS, join the official DiscordJS support server [here](https://discord.gg/bRCvFy9). The support team & members in general will try to help you. A friendly warning that the DiscordJS support team receives a **lot** of requests per day, so please try to make their lives easier.
-    - Instead of saying "my bot broke" or "i got an error" or "this won't work" (basically, instead of giving them nothing to work with), send a snippet of your code (or if it is a large chunk of code, use [Hastebin](https://www.hastebin.com)), explain your situation and include any relevant error messages, and explain what you did to attempt to resolve it.
-    - If you do not know JavaScript, the team will most likely direct you to a list of JS/NodeJS resources (the same resources I included above).
+- Instead of saying "my bot broke" or "i got an error" or "this won't work" (basically, instead of giving them nothing to work with), send a snippet of your code (or if it is a large chunk of code, use [Hastebin](https://www.hastebin.com)), explain your situation and include any relevant error messages, and explain what you did to attempt to resolve it.
+- If you do not know JavaScript, the team will most likely direct you to a list of JS/NodeJS resources (the same resources I included above).
 
 If you need help with DiscordJS or with JS in general, join Dev-Sandbox (where you will find me and other knowledgeable people) [here](https://discord.gg/6eBTTDM). Do note that we may not respond immediately.
 
@@ -78,5 +86,5 @@ If you use this bot template for your current bot and want to thank me, please d
 
 # Changelog
 02/28/2019
-    - Documentation
-    - Organization of code.
+- Documentation
+- Organization of code.
