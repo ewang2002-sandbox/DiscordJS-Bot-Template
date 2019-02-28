@@ -84,6 +84,8 @@ Thank you for reading through this bot template & guide. If you have feedback or
 
 If you use this bot template for your current bot and want to thank me, please do so by telling other people (especially those who want to learn to make a new bot and don't know where to start) about the bot template and include the GitHub link. :)
 
+Also, if you look through the commit history, you will notice a bot token in the `config.json` file. The token is fake. :)
+
 # Changelog
 02/28/2019
 - Documentation
