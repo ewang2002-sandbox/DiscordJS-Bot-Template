@@ -9,7 +9,7 @@ I will be referring to the Official DiscordJS Guide throughout this guide. The l
 
 While copying and pasting code may work, you will struggle to understand how to fix basic errors and will probably pick up a bunch of bad practices. If you do not know JavaScript, please refer to the below resources first. Asking for help on a topic you do not understand will result in people ignoring your requests for help.
 
-## Resources for JavaScript & NodeJS
+### Resources for JavaScript & NodeJS
 CodeAcademy Online Course: https://www.codecademy.com/learn/javascript
 
 Eloquent Javascript, Free Book: http://eloquentjavascript.net/
@@ -22,7 +22,7 @@ Some Node: https://nodeschool.io/ https://www.codeschool.com/courses/real-time-w
 
 Javascript References & Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
-## Resources for DiscordJS
+### Resources for DiscordJS
 The Official DiscordJS Guide: https://discordjs.guide/#/
 
 DiscordJS Documentation: https://discord.js.org/#/docs/main/stable/general/welcome
